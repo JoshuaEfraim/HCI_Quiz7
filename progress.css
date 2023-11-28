@@ -1,0 +1,28 @@
+body {
+    background-image: url("progress.png");
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:white;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #4caf50;
+    width: 0;
+}
+
+.content {
+    height: 1500px;
+    padding: 20px;
+}
